@@ -19,4 +19,29 @@ html {
 
 body {
   margin-bottom: 60px;
+  
+}
+
+    body::after {
+        content: "";
+        background: url("https://img.freepik.com/free-photo/friends-laughin-having-fun_23-2149153535.jpg?w=1480&t=st=1705080606~exp=1705081206~hmac=3be2bad0a7634b3c00f46c88f76163eeb91db4ac71e4466819a8a1570479e590");
+        opacity: 0.2;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+h1 {
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+h2 {
+    font-family: 'Lemon', serif;
+}
+
+.tagline {
+    font-size: 45px;
 }
